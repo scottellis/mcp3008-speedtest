@@ -67,7 +67,7 @@ int main(int argc, char **argv)
     ch = 0;
     speed = 3600000;
 
-    while ((opt = getopt(argc, argv, "b:c:hv")) != -1) {
+    while ((opt = getopt(argc, argv, "b:c:s:hv")) != -1) {
         switch (opt) {
         case 'b':
             blocks = atoi(optarg);
